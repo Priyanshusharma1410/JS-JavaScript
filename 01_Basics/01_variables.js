@@ -4,6 +4,11 @@ var accounPassword = "12345"
 accountCity = "Gwalior"
 let accountStates;
 
+accountId = 2
+
+console.log(accountId);
+
+
 // accountId = 2 // not allowed
 
 accountEmail = "priyanshu@gmail.com"
@@ -17,3 +22,4 @@ because of issue in block scpe and functional scope
 */
 // tabular form //
 console.table([accountId, accountEmail, accounPassword, accountCity, accountStates])
+
